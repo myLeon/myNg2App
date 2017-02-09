@@ -1,10 +1,9 @@
 # 借助Angular-CLI创建angular2 app
-=========
 
 ## 概要
 
 Angular-CLI ,即Command Line Interface简写，是一个官方推荐的命令行界面工具，angular官方出品。
-Angular-CLI(https://github.com/angular/angular-cli) 可以创建一个项目,添加文件,并执行各种持续的开发任务,如测试、发布等。
+[Angular-CLI](https://github.com/angular/angular-cli) 可以创建一个项目,添加文件,并执行各种持续的开发任务,如测试、发布等。
 
 ## 本节内容如下:
 
