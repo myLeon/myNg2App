@@ -1,11 +1,10 @@
-
 import { Routes, RouterModule } from '@angular/router';
-import { AboutComponent } from './about.component';
+import { FrontComponent } from './front.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: AboutComponent
+    component: FrontComponent
   }
 ];
 

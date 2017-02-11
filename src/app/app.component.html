@@ -1,11 +1,33 @@
 <h1>
   {{title}}
 </h1>
-<header>
-  <nav>
-    <a routerLink='/home' >home</a>
-    <a routerLink='/about' >about</a>
-    <a routerLink='/todo' >todo</a>
-  </nav>
-</header>
+<input type="text" [(ngModel)]="inputdate"  />{{inputdate}}
+<p>经过管道：{{ inputdate | date:"yyyy/MM/dd" }} </p>
+
+所有样品：
+<ul>
+  <li *ngFor="let item of samples">{{item.name}}</li>
+</ul>
+
+经过自定义管道receivedSample：
+
+<ul>
+  <li *ngFor="let item of samples|receivedSample">{{item.name}}</li>
+</ul>
+
+
+
+
+<p [myHighlight]="color">请移入鼠标</p>
+<p [myHighlight]="color" [defaultColor]="'violet'">请移入鼠标</p>
+设置默认色：
+<div>
+  <input type="radio" name="colors" (click)="color='lightgreen'">绿色
+  <input type="radio" name="colors" (click)="color='yellow'">黄色
+  <input type="radio" name="colors" (click)="color='cyan'">蓝色
+</div>
+
+
+
+
 <router-outlet></router-outlet>
