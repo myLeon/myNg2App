@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class MyNg2AppPage {
+export class CNPCSHYFrontPage {
   navigateTo() {
     return browser.get('/');
   }

@@ -1,0 +1,358 @@
+{
+  "home": {
+    "UserLoginCount": [
+      {
+        "IDENTITY": "BJSY_LHB",
+        "NAME": "李海波",
+        "TOTAL": "60"
+      },
+      {
+        "IDENTITY": "BJSY_GZ",
+        "NAME": "郭喆",
+        "TOTAL": "50"
+      },
+      {
+        "IDENTITY": "BJSY_CHS",
+        "NAME": "曹海松",
+        "TOTAL": "50"
+      },
+      {
+        "IDENTITY": "BJSY_XFZ",
+        "NAME": "邢凤忠",
+        "TOTAL": "50"
+      },
+      {
+        "IDENTITY": "BJSY_XFZ",
+        "NAME": "邢凤忠",
+        "TOTAL": "50"
+      },
+      {
+        "IDENTITY": "BJSY_XFZ",
+        "NAME": "邢凤忠",
+        "TOTAL": "50"
+      },
+      {
+        "IDENTITY": "BJSY_XFZ",
+        "NAME": "邢凤忠",
+        "TOTAL": "50"
+      },
+      {
+        "IDENTITY": "BJSY_XFZ",
+        "NAME": "邢凤忠",
+        "TOTAL": "50"
+      },
+      {
+        "IDENTITY": "BJSY_XFZ",
+        "NAME": "邢凤忠",
+        "TOTAL": "50"
+      },
+      {
+        "IDENTITY": "BJSY_XFZ",
+        "NAME": "邢凤忠",
+        "TOTAL": "50"
+      }
+    ],
+    "JQTasks": [
+      {
+        "identity": "JQ.20170702.111",
+        "name": "测试测试测试测试1",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.112",
+        "name": "测试测试测试测试测试测试测试2",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.113",
+        "name": "测试测试测试测试测试测试测试3",
+        "tasktype": "加氢任务",
+        "process": "2/8"
+      },
+      {
+        "identity": "JQ.20170702.114",
+        "name": "测试测试测试测试测试测试测试4",
+        "tasktype": "加氢任务",
+        "process": "5/8"
+      },
+      {
+        "identity": "JQ.20170702.115",
+        "name": "测试测试测试测试测试测试测试5",
+        "tasktype": "加氢任务",
+        "process": "7/8"
+      },
+      {
+        "identity": "JQ.20170702.116",
+        "name": "测试测试测试测试测试测试测试6",
+        "tasktype": "加氢任务",
+        "process": "4/8"
+      },
+      {
+        "identity": "JQ.20170702.117",
+        "name": "测试测试测试测试测试测试测试7",
+        "tasktype": "加氢任务",
+        "process": "3/8"
+      },
+      {
+        "identity": "JQ.20170702.118",
+        "name": "测试测试测试测试测试测试测试8",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.119",
+        "name": "测试测试测试测试测试测试测试9",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.120",
+        "name": "测试测试测试测试测试测试测试10",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.121",
+        "name": "测试测试测试测试测试测试测试11",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.123",
+        "name": "测试测试测试测试测试测试测试12",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.124",
+        "name": "测试测试测试测试测试测试测试13",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.125",
+        "name": "测试测试测试测试测试测试测试14",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.119",
+        "name": "测试测试测试测试测试测试测试15",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.120",
+        "name": "测试测试测试测试测试测试测试16",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.121",
+        "name": "测试测试测试测试测试测试测试17",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.123",
+        "name": "测试测试测试测试测试测试测试18",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.124",
+        "name": "测试测试测试测试测试测试测试19",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.125",
+        "name": "测试测试测试测试测试测试测试20",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      }
+    ]
+  },
+  "home_UserLoginCount": {
+    "success": true,
+    "data": [
+      {
+        "IDENTITY": "BJSY_LHB",
+        "NAME": "李海波",
+        "TOTAL": "60"
+      },
+      {
+        "IDENTITY": "BJSY_GZ",
+        "NAME": "郭喆",
+        "TOTAL": "50"
+      },
+      {
+        "IDENTITY": "BJSY_CHS",
+        "NAME": "曹海松",
+        "TOTAL": "50"
+      },
+      {
+        "IDENTITY": "BJSY_XFZ",
+        "NAME": "邢凤忠",
+        "TOTAL": "50"
+      },
+      {
+        "IDENTITY": "BJSY_XFZ",
+        "NAME": "邢凤忠",
+        "TOTAL": "50"
+      },
+      {
+        "IDENTITY": "BJSY_XFZ",
+        "NAME": "邢凤忠",
+        "TOTAL": "50"
+      },
+      {
+        "IDENTITY": "BJSY_XFZ",
+        "NAME": "邢凤忠",
+        "TOTAL": "50"
+      },
+      {
+        "IDENTITY": "BJSY_XFZ",
+        "NAME": "邢凤忠",
+        "TOTAL": "50"
+      },
+      {
+        "IDENTITY": "BJSY_XFZ",
+        "NAME": "邢凤忠",
+        "TOTAL": "50"
+      },
+      {
+        "IDENTITY": "BJSY_XFZ",
+        "NAME": "邢凤忠",
+        "TOTAL": "50"
+      }
+    ]
+  },
+  "home_JqTask": {
+    "success": true,
+    "data": [
+      {
+        "identity": "JQ.20170702.111",
+        "name": "测试测试测试测试1",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.112",
+        "name": "测试测试测试测试测试测试测试2",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.113",
+        "name": "测试测试测试测试测试测试测试3",
+        "tasktype": "加氢任务",
+        "process": "2/8"
+      },
+      {
+        "identity": "JQ.20170702.114",
+        "name": "测试测试测试测试测试测试测试4",
+        "tasktype": "加氢任务",
+        "process": "5/8"
+      },
+      {
+        "identity": "JQ.20170702.115",
+        "name": "测试测试测试测试测试测试测试5",
+        "tasktype": "加氢任务",
+        "process": "7/8"
+      },
+      {
+        "identity": "JQ.20170702.116",
+        "name": "测试测试测试测试测试测试测试6",
+        "tasktype": "加氢任务",
+        "process": "4/8"
+      },
+      {
+        "identity": "JQ.20170702.117",
+        "name": "测试测试测试测试测试测试测试7",
+        "tasktype": "加氢任务",
+        "process": "3/8"
+      },
+      {
+        "identity": "JQ.20170702.118",
+        "name": "测试测试测试测试测试测试测试8",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.119",
+        "name": "测试测试测试测试测试测试测试9",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.120",
+        "name": "测试测试测试测试测试测试测试10",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.121",
+        "name": "测试测试测试测试测试测试测试11",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.123",
+        "name": "测试测试测试测试测试测试测试12",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.124",
+        "name": "测试测试测试测试测试测试测试13",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.125",
+        "name": "测试测试测试测试测试测试测试14",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.119",
+        "name": "测试测试测试测试测试测试测试15",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.120",
+        "name": "测试测试测试测试测试测试测试16",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.121",
+        "name": "测试测试测试测试测试测试测试17",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.123",
+        "name": "测试测试测试测试测试测试测试18",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.124",
+        "name": "测试测试测试测试测试测试测试19",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      },
+      {
+        "identity": "JQ.20170702.125",
+        "name": "测试测试测试测试测试测试测试20",
+        "tasktype": "加氢任务",
+        "process": "1/8"
+      }
+    ]
+  }
+}

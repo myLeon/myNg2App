@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,13 +8,43 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
-  inputdate = '2017-02-12';
-  samples = [
-    { id: "1", name: "S1", received: false },
-    { id: "2", name: "S2", received: false },
-    { id: "3", name: "S3", received: true },
-    { id: "4", name: "S4", received: false },
-    { id: "5", name: "S5", received: true },
-    { id: "6", name: "S6", received: false },
-  ]
+  chartData = {
+    color: ['#3398DB'],
+    tooltip : {
+        trigger: 'axis',
+        axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+        }
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    xAxis : [
+        {
+            type : 'category',
+            data : ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+            axisTick: {
+                alignWithLabel: true
+            }
+        }
+    ],
+    yAxis : [
+        {
+            type : 'value'
+        }
+    ],
+    series : [
+        {
+            name:'直接访问',
+            type:'bar',
+            barWidth: '60%',
+            data:[10, 52, 200, 334, 390, 330, 220]
+        }
+    ]
+  };
+
+
 }

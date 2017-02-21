@@ -4,24 +4,24 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { routing } from './app-routing.module';
-import { HighlightDirective } from './_directives/highlight.directive';
-import { ReceivedSamplePipe } from './_pipes/received-sample.pipe';
+import { LoginComponent } from './login/login.component';
+
+import { Routes, RouterModule } from '@angular/router';
+import { Routing } from './app-routing.module';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    HighlightDirective,
-    ReceivedSamplePipe
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    Routing
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })

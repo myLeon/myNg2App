@@ -1,14 +1,14 @@
+import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 
-export const routes: Routes = [
-  { path: '', component: HomeComponent, pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
-  { path: 'login', loadChildren: 'app/login/login.module#LoginModule' },
-  { path: 'front', loadChildren: "app/front/front.module#FrontModule" },
-  { path: 'admin', loadChildren: "app/admin/admin.module#AdminModule" },
-  { path: 'about', loadChildren: 'app/about/about.module#AboutModule' }
+const routes: Routes = [
+   //{ path: '', component:LoginComponent  },
+   { path: '', loadChildren: 'app/first/first.module#FirstModule'  },
+   { path: 'first', loadChildren: 'app/first/first.module#FirstModule' },
+   { path: 'second', loadChildren: 'app/second/second.module#SecondModule' },
+   { path: 'third', loadChildren: 'app/third/third.module#ThirdModule' },
+   { path: 'login', component:LoginComponent  }
 ];
 
-export const routing = RouterModule.forRoot(routes, { useHash: true });
-
+export const Routing = RouterModule.forRoot(routes,{useHash:true});

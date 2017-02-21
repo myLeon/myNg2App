@@ -1,10 +1,10 @@
-import { MyNg2AppPage } from './app.po';
+import { CNPCSHYFrontPage } from './app.po';
 
-describe('my-ng2-app App', function() {
-  let page: MyNg2AppPage;
+describe('cnpc-shy-front App', function() {
+  let page: CNPCSHYFrontPage;
 
   beforeEach(() => {
-    page = new MyNg2AppPage();
+    page = new CNPCSHYFrontPage();
   });
 
   it('should display message saying app works', () => {
