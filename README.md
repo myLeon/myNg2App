@@ -1,27 +1,17 @@
-# CNPCSHYFront
+# CNPCSHYFront 研究院实验室数据展示平台 --  Lab Data Monitor
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-beta.31.
+项目由 [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-beta.31. 生成
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 启动开发服务
 
-## Code scaffolding
+运行 `ng serve`  启动开发服务.打开 `http://localhost:4200/`. app 将自动载入源码的修改
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+## 代码骨架
 
-## Build
+运行 `ng generate component component-name` 生成新组件. 
+可生成的文件类型 `ng generate directive/pipe/service/class/module`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## 生产环境
 
-## Running unit tests
+运行 `ng build` 系统将自动编译.编译后存放在`dist/` 目录.使用参数 `-prod` 将发布为最终生成环境.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
