@@ -1,6 +1,4 @@
-# 引用第三方控件示例 
-# 研究院实验室数据展示平台 
-# Lab Data Monitor
+# 第二节：Angular2路由（Router）的使用
 
 项目由 [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-beta.31. 生成
 
